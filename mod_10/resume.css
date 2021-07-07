@@ -1,0 +1,68 @@
+@font-face {
+    src: url('fonts/Roboto-Bold.ttf');
+    font-family: 'header';
+}
+@font-face {
+    src: url('fonts/Roboto-BoldItalic.ttf');
+    font-family: 'contact';
+}
+@font-face {
+    src: url('fonts/Roboto-Medium.ttf');
+    font-family: 'header_div';
+}
+@font-face {
+    src: url('fonts/Roboto-Regular.ttf');
+    font-family: 'text_div';
+}
+.font-header {
+    margin: 0;
+    font-family: header, serif;
+    color: rgb(0,0,0);
+    text-align: center;
+}
+.font-contact {
+    margin: 0;
+    font-family: header_div, serif;
+    color: rgb(0,0,0);
+    text-align: left;
+}
+.font-div {
+    margin: 0;
+    font-family: contact, serif;
+    color: rgb(0,0,0);
+    text-align: left;
+}
+.font-text {
+    margin: 0;
+    font-family: text_div, serif;
+    color: rgb(0,0,0);
+    text-align: justify;
+}
+.grid-wrapper {
+    border: 2px solid rgb(192,192,192);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1vw;
+    background-color: rgb(224, 224, 224);
+}
+.grid-wrapper-in-tab {
+    border: 2px solid rgb(192,192,192);
+    //box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1px;
+    background-color: rgb(248, 248, 248);
+    }
+.grid-wrapper-in-one {
+    border: 2px solid rgb(192,192,192);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1px;
+    background-color: rgb(248, 248, 248);
+    }
+.grid-item {
+    border: 2px solid rgb(192,192,192);
+    }
